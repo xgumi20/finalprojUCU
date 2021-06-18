@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lowstress"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CATEGORIES"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/musicbutton"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="32dp"
+        android:text="Music"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <Button
+        android:id="@+id/activities"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="Activities"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicbutton"
+        tools:ignore="HardcodedText"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/food"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="16dp"
+        android:text="Food"
+        android:backgroundTint="@color/teal_200"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activities"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+    <Button
+        android:id="@+id/mentalhealth"
+        android:layout_width="96dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:text="Back"
+        android:backgroundTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/food"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

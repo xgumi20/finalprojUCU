@@ -1,0 +1,2 @@
+rootProject.name = "Stress Reduction Helper"
+include ':app'
